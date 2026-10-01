@@ -1,0 +1,4 @@
+V14.0 Button/Callback Static Check
+App methods detected: 54
+Buttons were reviewed in main.py; no known callback method is missing from the App class.
+Non-method self attributes referenced: _after_destroy, _build_ui, _click_close, _focus_window, _img_text, _sched_text, _wheel, after, attributes, bind, bind_all, choose_images, clear_images, close, deiconify, destroy, focus_force, geometry, grab_release, grab_set, hour_var, inner, lift, master, minsize, minute_var, open_schedule, overrideredirect, preview, quick, retry, save, scrollbar, select_date, selected_date, setdt, theme, title, tomorrow, transient, unbind_all, update_idletasks, wait, wait_window, win, winfo_height, winfo_width

@@ -1,0 +1,12 @@
+V14.0 Release Check
+
+Static checks completed in the build environment:
+- Python syntax: all .py files compile successfully.
+- BAT scripts: ASCII / no UTF-8 BOM.
+- Source avatar PNG + ICO: present.
+- Build script: checks source assets, checks EXE is not running, uses Python 3.11 x64, verifies dependencies, runs syntax check, builds with PyInstaller, copies avatar files into dist\WeChatAutoSender\assets, verifies the files, and creates Portable ZIP.
+- Release build does not copy the developer's data/ folder.
+- Runtime resource lookup: EXE folder -> PyInstaller internal folder -> source folder, with embedded avatar fallback.
+- GUI callbacks: direct button/checkbutton self.* callbacks inspected; inherited Toplevel.destroy callbacks are expected.
+
+Real Windows + WeChat GUI testing remains necessary for final release validation.

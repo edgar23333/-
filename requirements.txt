@@ -1,0 +1,6 @@
+pyautogui==0.9.54
+pyperclip==1.9.0
+Pillow==12.3.0
+pywin32==312
+rapidocr==3.9.2
+onnxruntime==1.30.0
